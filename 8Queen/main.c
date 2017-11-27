@@ -74,7 +74,7 @@ void printBoard(int board[N][N]){
     int i,j;
     for(i=0;i<N;i++){
         for(j=0;j<N;j++){
-            if(board[i][j]==5){
+            if(board[i][j]==5){//here i get diffrent results with diffrent numbers,neither is the correct one
                 printf("Q");
             }else{
                 printf(".");
